@@ -25,29 +25,29 @@ Esse projeto foi desenvolvido para demonstrar:
     * [springboot-forum-api](https://github.com/rogerfdeazevedo/springboot-forum-api) - Projeto de API Rest monitorado por esse projeto;
 
 
-## Tecnologia
+## Tecnologias
 
 * [Maven](https://maven.org/) - Dependency Management
 * [Spring Boot Framework](https://https://start.spring.io/) - Framework API Rest
 * [Spring Boot Admin - Codecentric](https://github.com/codecentric/spring-boot-admin) - Framework de Monitoramento deAPI Rest
 
+## Tópico Forum Api
+
+API responsável pelo dominio de negócio de Tópicos de discussão em um fórum de cursos em uma escola de tecnologia.
+
 ## Release History
 
 * **1.0.0**
-* **Monitoramento com Spring Boot Admin**
-  * **Dependências**:
-    * Ultilizar o módulo Spring Boot Starter Web;
-    * Ultilizar o módulo Spring Boot Admin Starter Server;
-      * * Para acessar a interface gráfica do Spring Boot Admin, localmente, utilizar o endereço : http://localhost:8081
-  * **MainApplication**:
-    * Na clase principal substituir anotação do @SpringBootApplication, pelas anotações @Configuration, @EnableAutoConfiguration e @EnableAdminServer;
-  * **Configurações**:
-    * Para execução dos projetos em "localhost", alterar a porta da aplicação no arquivo de propriedades "server.port=8081"; 
+  * **Monitoramento com Spring Boot Admin**
+    * **Dependências**:
+      * Ultilizar o módulo Spring Boot Starter Web;
+      * Ultilizar o módulo Spring Boot Admin Starter Server;
+        * * Para acessar a interface gráfica do Spring Boot Admin, localmente, utilizar o endereço : http://localhost:8081
+    * **MainApplication**:
+      * Na clase principal substituir anotação do @SpringBootApplication, pelas anotações @Configuration, @EnableAutoConfiguration e @EnableAdminServer;
+    * **Configurações**:
+      * Para execução dos projetos em "localhost", alterar a porta da aplicação no arquivo de propriedades "server.port=8081"; 
   
-## Tópico Forum Api
-
-API responsável pelo dominio de negócio de Tópicos de discussão em um fórum de cursos em uma escola de tecnologia. 
-
 
 <!-- Markdown link & img dfn's -->
 
