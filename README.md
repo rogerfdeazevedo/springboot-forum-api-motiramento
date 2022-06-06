@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido para demonstrar:
 
 ## Tópico Forum Api
 
-API responsável pelo dominio de negócio de Tópicos de discussão em um fórum de cursos em uma escola de tecnologia.
+API responsável pelos Tópicos de discussão, em um fórum de cursos de uma escola.
 
 ## Release History
 
